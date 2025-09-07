@@ -2,9 +2,17 @@
 
 **An AI-powered short film generation platform with character consistency and location consistency using cutting-edge AI models**
 
+<div align="center">
+
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.8+-green.svg)
 ![Streamlit](https://img.shields.io/badge/streamlit-1.28+-red.svg)
+![AI Models](https://img.shields.io/badge/AI-GPT4%20%7C%20Gemini%20%7C%20Veo3%20%7C%20ElevenLabs-purple.svg)
+![Status](https://img.shields.io/badge/status-Beta-orange.svg)
+
+**[🎬 Watch Demo](https://youtu.be/o5_jpWK-Zk0) | [📖 Documentation](#-quick-start) | [🚀 Get Started](#installation)**
+
+</div>
 
 ## 🌟 Overview
 
@@ -22,24 +30,63 @@ MiniStory-AI is an innovative AI director platform that transforms story ideas i
 
 ## 🏗️ System Architecture
 
-```
-MiniStory-AI Platform
-├── Script Planning Engine (GPT-4)
-├── Character Generation Pipeline (Nano Banana + GPT-4)
-├── Location Generation System (Nano Banana + Gemini)
-├── Scene Creation Engine (Gemini + Veo3)
-├── Voice Design Studio (ElevenLabs + GPT-4)
-└── Video Assembly Manager (FFmpeg + Custom Logic) [pending]
+<div align="center">
+  <img src="assets/system_architecture.png" alt="MiniStory-AI System Architecture" width="800">
+</div>
+
+### 🔄 Pipeline Overview
+
+```mermaid
+flowchart TD
+    A[📝 Script Input] --> B[🎬 Script Planning Engine]
+    B --> C[🎭 Character Generation Pipeline]
+    B --> D[🏢 Location Generation System]
+    C --> E[📋 Scene Description Creation]
+    D --> E
+    E --> F[🎥 Scene Creation Engine]
+    F --> G[🎙️ Voice Design & Audio Sync]
+    G --> H[🎬 Video Assembly Manager]
+    H --> I[🎉 Final Video Output]
+    
+    B -.-> J[GPT-4]
+    C -.-> K[FAL + GPT-4]
+    D -.-> L[FAL + Gemini]
+    E -.-> M[Gemini]
+    F -.-> N[Veo3]
+    G -.-> O[ElevenLabs]
+    H -.-> P[FFmpeg + Custom Logic - PENDING]
+    
+    style A fill:#e1f5fe
+    style I fill:#e8f5e8
+    style P fill:#fff3e0
 ```
 
 ### 🔧 Core Components
 
-1. **Script Formatter**: Converts raw scripts into structured scene and shot data
-2. **Character Generator**: Creates consistent character images and profiles
-3. **Location Generator**: Designs and renders film locations
-4. **Scene Creator**: Generates individual scene videos with proper cinematography
-5. **Audio Generator**: Handles voice synthesis and audio mixing
-6. **Video Assembler**: Combines all elements into final film
+| Component | Technology Stack | Status | Description |
+|-----------|------------------|--------|-------------|
+| **🎬 Script Formatter** | LLM + Custom Logic | ✅ Complete | Converts raw scripts into structured scene and shot data |
+| **🎭 Character Generator** | NanoBanana  | ✅ Complete | Creates consistent character images and profiles |
+| **🏢 Location Generator** | NanoBanana  | ✅ Complete | Designs and renders film locations |
+| **📋 Scene Describer** | LLM | ✅ Complete | Generates detailed scene descriptions with references |
+| **🎥 Scene Creator** | Veo3 + Custom Logic | Generates individual scene videos with cinematography |
+| **🎙️ Audio Generator** | ElevenLabs + LLM | ✅ Complete | Handles voice synthesis and audio mixing |
+| **🎬 Video Assembler** | FFmpeg + Custom Logic | ⏳ Pending | Combines all elements into final film |
+
+
+## 🏆 Demo & Examples
+
+### 🎥 Live Demo
+
+**Watch the complete MiniStory-AI workflow in action:**
+
+<div align="center">
+  
+[![MiniStory-AI Demo Video](https://img.youtube.com/vi/o5_jpWK-Zk0/0.jpg)](https://youtu.be/o5_jpWK-Zk0)
+
+**[🎬 Watch Full Demo on YouTube](https://youtu.be/o5_jpWK-Zk0)**
+
+</div>
 
 ## 🚀 Quick Start
 
@@ -263,15 +310,20 @@ The platform generates complete project structures with:
 - **Caching System**: Intelligent asset caching
 - **Error Recovery**: Robust error handling and recovery
 
-## 🏆 Demo & Examples
 
-*Demo videos and example outputs will be added here once available*
+> **Note**: For the best experience, click the video above to watch on YouTube with full resolution and sound.
 
-- [ ] Demo video showcasing complete workflow
-- [ ] Sample generated short films
-- [ ] Character consistency examples
-- [ ] Location design showcases
-- [ ] Voice design demonstrations
+The demo showcases:
+- ✅ Complete script-to-video workflow
+- ✅ Character consistency across scenes  
+- ✅ Location generation and design
+- ✅ Voice synthesis and character matching
+- ✅ Scene creation with proper cinematography
+- 🚧 Final video assembly (in development)
+
+### 📊 Sample Outputs
+
+
 
 ## 📄 License
 
