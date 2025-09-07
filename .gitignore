@@ -1,0 +1,6 @@
+/test/
+/notebooks/
+/docs/
+/story_generation_pipeline/
+.env
+__pycache__/*

@@ -1,0 +1,37 @@
+{
+  "characters": [
+    {
+      "name": "Sanju Wadhwa",
+      "id": "char_01",
+      "age": 24,
+      "role": "main",
+      "voice_information": "soft-spoken, anxious tone",
+      "gender": "male",
+      "overall_description": "Sanju is a young man filled with potential but overshadowed by his reckless actions. He is playful and full of life, especially on the football field where he showcases his talents. However, beneath this lively exterior lies a deep-seated fear and guilt regarding his recent actions that have led him to a crime scene and into an interrogation room. His friendship with Raghu is central to his emotional journey, marked by loyalty and regret, as he grapples with the aftermath of betrayal. His journey reflects the struggles of young adulthood faced with dire consequences of decisions made in moments of impulse and passion.",
+      "image_path": "story_generation_pipeline/sessions/HIndi Thriller_20250906_215416_ba18db6b/character_generation/images/char_01_front_facing.png",
+      "character_sheet_image_path": "story_generation_pipeline/sessions/HIndi Thriller_20250906_215416_ba18db6b/character_generation/images/char_01_front_facing.png"
+    },
+    {
+      "name": "Raghu Sharma",
+      "id": "char_02",
+      "age": 24,
+      "role": "main",
+      "voice_information": "assertive, encouraging voice",
+      "gender": "male",
+      "overall_description": "Raghu is a passionate and talented football player, known for his determination and strong leadership on the field. He has a deep sense of loyalty towards his friends, particularly Sanju. Their friendship is a cornerstone of his identity, as he balances his ambitions with the complexities that arise from their relationship. Raghu's love for the game is evident, often overshadowed by the friendship and rivalry he shares with Sanju. However, the burgeoning tension between them in light of recent events hints at a darker side – the struggle of maintaining bonds when faced with betrayal and loss.",
+      "image_path": "story_generation_pipeline/sessions/HIndi Thriller_20250906_215416_ba18db6b/character_generation/images/char_02_front_facing.png",
+      "character_sheet_image_path": "story_generation_pipeline/sessions/HIndi Thriller_20250906_215416_ba18db6b/character_generation/images/char_02_front_facing.png"
+    },
+    {
+      "name": "Inspector Shekhawat",
+      "id": "char_03",
+      "age": 40,
+      "role": "supporting",
+      "voice_information": "authoritative, commanding voice",
+      "gender": "male",
+      "overall_description": "Inspector Shekhawat is a seasoned officer dedicated to uncovering the truth behind crimes. His tough exterior and aggressive interrogation tactics demonstrate his determination to solve cases, often leading him to confront suspects with an unwavering moral compass. Shekhawat believes in justice, and to him, the end justifies the means, which sometimes puts him at odds with the emotions of those he interrogates. He plays a crucial role in unraveling the plot, showcasing the heavier themes of justice, betrayal, and the complexity of human emotions in the face of crime.",
+      "image_path": "story_generation_pipeline/sessions/HIndi Thriller_20250906_215416_ba18db6b/character_generation/images/char_03_front_facing.png",
+      "character_sheet_image_path": "story_generation_pipeline/sessions/HIndi Thriller_20250906_215416_ba18db6b/character_generation/images/char_03_front_facing.png"
+    }
+  ]
+}

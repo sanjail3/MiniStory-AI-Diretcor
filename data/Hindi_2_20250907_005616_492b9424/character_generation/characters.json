@@ -1,0 +1,37 @@
+{
+  "characters": [
+    {
+      "name": "Sanju Wadhwa",
+      "id": "char_01",
+      "age": 24,
+      "role": "main",
+      "voice_information": "soft-spoken yet firm",
+      "gender": "male",
+      "overall_description": "A complex character plagued by guilt and conflicting emotions, Sanju is depicted as a jovial friend whose life takes a dark turn. He is fiercely loyal but struggles with the repercussions of his actions, revealing vulnerability beneath his bravado. His background includes a passion for football and a close-knit friendship with Raghu that ultimately leads to tragedy. He is portrayed as having a mix of charisma and hidden turmoil. Sanju is centered around themes of loyalty and betrayal.",
+      "image_path": "story_generation_pipeline/sessions/Hindi_2_20250907_005616_492b9424/character_generation/images/char_01_front_facing.png",
+      "character_sheet_image_path": "story_generation_pipeline/sessions/Hindi_2_20250907_005616_492b9424/character_generation/images/char_01_front_facing.png"
+    },
+    {
+      "name": "Raghu Sharma",
+      "id": "char_02",
+      "age": 24,
+      "role": "supporting",
+      "voice_information": "confident and enthusiastic",
+      "gender": "male",
+      "overall_description": "Raghu is a spirited and ambitious youth, known for his competitiveness on the football field. He represents the ideal friend, embodying loyalty and camaraderie, but his life takes a drastic turn due to the fatal incident. Raghu's character is relatable as he navigates friendship, love, and rivalry, making his demise a significant emotional anchor in the story. His underlying strength is showcased through his interactions with Sanju, ultimately underscoring themes of sacrifice and friendship.",
+      "image_path": "story_generation_pipeline/sessions/Hindi_2_20250907_005616_492b9424/character_generation/images/char_02_front_facing.png",
+      "character_sheet_image_path": "story_generation_pipeline/sessions/Hindi_2_20250907_005616_492b9424/character_generation/images/char_02_front_facing.png"
+    },
+    {
+      "name": "Inspector Shekhawat",
+      "id": "char_03",
+      "age": 40,
+      "role": "supporting",
+      "voice_information": "gravelly and authoritative",
+      "gender": "male",
+      "overall_description": "A seasoned police officer, Shekhawat is determined to unravel the truth behind Raghu's death. He represents authority and the quest for justice, often using coercive tactics to extract confessions. His character is driven by a desire to serve justice and resolve crimes, making him a pivotal figure in confronting Sanju's actions. His professional demeanor hides a more compassionate side, as he understands the complexities of crime and friendship.",
+      "image_path": "story_generation_pipeline/sessions/Hindi_2_20250907_005616_492b9424/character_generation/images/char_03_front_facing.png",
+      "character_sheet_image_path": "story_generation_pipeline/sessions/Hindi_2_20250907_005616_492b9424/character_generation/images/char_03_front_facing.png"
+    }
+  ]
+}

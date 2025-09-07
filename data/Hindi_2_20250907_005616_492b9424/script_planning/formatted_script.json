@@ -1,0 +1,653 @@
+{
+  "scenes": [
+    {
+      "scene_info": {
+        "Scene_ID": "SC_01",
+        "Title": "Crime Scene Introduction",
+        "Location": "EXT. CRIME SCENE - DAY",
+        "Narration": true,
+        "Scene_Tone": "somber",
+        "Set_Info": {
+          "environment": "A chaotic crime scene with a disfigured body covered by a white cloth, police officers conducting the inspection",
+          "time": "Day",
+          "lighting": "bright",
+          "background_sfx": [
+            "police sirens",
+            "crowd murmuring"
+          ]
+        },
+        "Scene_Characters": [
+          {
+            "character_id": "char_01",
+            "character_name": "",
+            "emotion": "numb",
+            "outfit": "casual clothes",
+            "scene_description": "Sanju is sitting quietly with handcuffs, staring at the covered body with shock and disbelief."
+          }
+        ],
+        "Plot": {
+          "summary": "The scene opens at a crime scene where Sanju is handcuffed and quietly observing the disfigured body covered with a cloth. Police are securing evidence, and the atmosphere is heavy with tension and sorrow. The stark contrast between the innocence of a sunny day and the horror unfolding sets a dark tone.",
+          "theme": "loss and guilt"
+        },
+        "Given_Script": "Hum dekhte hain ek crime scene. Ek aadmi ki disfigured laash safed kapde se dhaki jaa rahi hai -crime scene ka inspection chal raha hai - ek gun evidence bag mein seal kar rahe hain. Ek 24 saal ka ladka, Sanju, haath mein hathkadi pehen kar baitha hai. Ekdum chupchap dekh raha hai uss body ko."
+      },
+      "shots": [
+        {
+          "Shot_ID": "SC1_SH1",
+          "Description": "Wide shot of the chaotic crime scene, showing the disfigured body covered by a cloth and police officers gathered around securing evidence.",
+          "Focus_Characters": [],
+          "Camera": "aerial_slow_dolly",
+          "Emotion": "none",
+          "Narration": "Hum dekhte hain ek crime scene. Ek aadmi ki disfigured laash safed kapde se dhaki ja rahi hai.",
+          "Background_SFX": [
+            "police sirens",
+            "crowd murmuring"
+          ],
+          "Lighting": "bright sunlight contrasting with the dark theme of the scene",
+          "Shot_Tone": "somber",
+          "Set_Details": "Body covered under a white cloth, police officers collecting evidence, yellow tape delineating the crime area.",
+          "Dialog": [],
+          "focus_character_images": [],
+          "location_reference": null
+        },
+        {
+          "Shot_ID": "SC1_SH2",
+          "Description": "Close-up shot of Sanju's face, showing his numb expression as he stares blankly at the body.",
+          "Focus_Characters": [
+            "char_01"
+          ],
+          "Camera": "close-up",
+          "Emotion": "numb",
+          "Narration": "",
+          "Background_SFX": [
+            "police sirens",
+            "crowd murmuring"
+          ],
+          "Lighting": "natural light highlighting his features, reflecting his emotional detachment",
+          "Shot_Tone": "heavy",
+          "Set_Details": "Sanju is handcuffed, the background slightly blurred to maintain focus on his expression.",
+          "Dialog": [],
+          "focus_character_images": [],
+          "location_reference": null
+        },
+        {
+          "Shot_ID": "SC1_SH3",
+          "Description": "Mid shot of a police officer placing a gun into an evidence bag, with the disfigured body visible in the background.",
+          "Focus_Characters": [],
+          "Camera": "tracking shot",
+          "Emotion": "none",
+          "Narration": "Crime scene ka inspection chal raha hai.",
+          "Background_SFX": [
+            "police sirens",
+            "zipper of evidence bag"
+          ],
+          "Lighting": "bright and direct, accentuating the police activity",
+          "Shot_Tone": "tense",
+          "Set_Details": "Police officers wearing forensics gloves, evidence markers scattered around.",
+          "Dialog": [],
+          "focus_character_images": [],
+          "location_reference": null
+        },
+        {
+          "Shot_ID": "SC1_SH4",
+          "Description": "Close-up of the disfigured body covered by the white cloth, emphasizing the horror amidst the sunny day.",
+          "Focus_Characters": [],
+          "Camera": "extreme close-up",
+          "Emotion": "horror",
+          "Narration": "",
+          "Background_SFX": [
+            "wind",
+            "faint murmuring"
+          ],
+          "Lighting": "harsh daylight causing shadows, creating a stark contrast with the white cloth",
+          "Shot_Tone": "gruesome",
+          "Set_Details": "The outline of the body is shown under the cloth, the chaotic scene in the periphery.",
+          "Dialog": [],
+          "focus_character_images": [],
+          "location_reference": null
+        },
+        {
+          "Shot_ID": "SC1_SH5",
+          "Description": "Wide shot showing the entire crime scene with police officers and Sanju in the foreground, the innocent day starkly contrasting the grim event.",
+          "Focus_Characters": [
+            "char_01"
+          ],
+          "Camera": "wide shot",
+          "Emotion": "none",
+          "Narration": "",
+          "Background_SFX": [
+            "police sirens",
+            "crowd murmuring"
+          ],
+          "Lighting": "bright sunlight making the scene feel surreal",
+          "Shot_Tone": "reflective",
+          "Set_Details": "The sunny environment juxtaposed with the chaos and sorrow of the crime scene.",
+          "Dialog": [],
+          "focus_character_images": [],
+          "location_reference": null
+        }
+      ]
+    },
+    {
+      "scene_info": {
+        "Scene_ID": "SC_02",
+        "Title": "Interrogation Begins",
+        "Location": "INT. INTERROGATION ROOM - NIGHT",
+        "Narration": true,
+        "Scene_Tone": "tense",
+        "Set_Info": {
+          "environment": "A dimly lit interrogation room with a table and two chairs",
+          "time": "Night",
+          "lighting": "dim",
+          "background_sfx": [
+            "clock ticking",
+            "door creaking"
+          ]
+        },
+        "Scene_Characters": [
+          {
+            "character_id": "char_01",
+            "character_name": "",
+            "emotion": "defensive",
+            "outfit": "casual clothes with noticeable dirt",
+            "scene_description": "Sanju sits with a closed demeanor, facing the inspector, looking both anxious and defiant."
+          },
+          {
+            "character_id": "char_02",
+            "character_name": "",
+            "emotion": "aggressive",
+            "outfit": "police uniform",
+            "scene_description": "Inspector Shekhawat enters forcefully, displaying authority as he confronts Sanju."
+          }
+        ],
+        "Plot": {
+          "summary": "In a stark interrogation room, Inspector Shekhawat aggressively questions Sanju about his involvement in Raghu's death. Flashbacks reveal the moment of the shooting, emphasizing the intensity of their friendship and the abrupt turn towards violence. Sanju's cold demeanor hints at deeper layers of guilt and denial.",
+          "theme": "truth and betrayal"
+        },
+        "Given_Script": "Wo ladka Sanju interrogation room mein baitha hua hai. Inspector Shekhawat andar aata hai. Wo Sanju ke muh pe pani phekta hai aur poochta hai… Shekhawat - Bata Sanju, Kya kiya tha tune Raghu ke saath?"
+      },
+      "shots": [
+        {
+          "Shot_ID": "SC2_SH1",
+          "Description": "Close-up of Sanju's face, showing his defensive expression as he sits at the table.",
+          "Focus_Characters": [
+            "char_01"
+          ],
+          "Camera": "close-up",
+          "Emotion": "defensive",
+          "Narration": "Sanju feels the weight of the situation, a mix of fear and defiance.",
+          "Background_SFX": [
+            "clock ticking",
+            "door creaking"
+          ],
+          "Lighting": "dim, shadows cast across Sanju's face",
+          "Shot_Tone": "tense",
+          "Set_Details": "A small interrogation room with bare walls, a light bulb flickering above.",
+          "Dialog": [],
+          "focus_character_images": [],
+          "location_reference": null
+        },
+        {
+          "Shot_ID": "SC2_SH2",
+          "Description": "Wide shot of the interrogation room, including both Sanju and Inspector Shekhawat as he enters.",
+          "Focus_Characters": [
+            "char_01",
+            "char_02"
+          ],
+          "Camera": "wide shot",
+          "Emotion": "none",
+          "Narration": "The room is charged with tension as Inspector Shekhawat approaches Sanju.",
+          "Background_SFX": [
+            "clock ticking",
+            "door creaking"
+          ],
+          "Lighting": "dimly lit with harsh light focusing on the table",
+          "Shot_Tone": "tense",
+          "Set_Details": "Table between the two characters, chairs both pushed back.",
+          "Dialog": [],
+          "focus_character_images": [],
+          "location_reference": null
+        },
+        {
+          "Shot_ID": "SC2_SH3",
+          "Description": "Close-up of Inspector Shekhawat, furious expression as he splashes water on Sanju's face.",
+          "Focus_Characters": [
+            "char_02"
+          ],
+          "Camera": "close-up",
+          "Emotion": "aggressive",
+          "Narration": "Inspector Shekhawat struggles to contain his anger as he demands answers.",
+          "Background_SFX": [
+            "splash of water",
+            "heavy breathing"
+          ],
+          "Lighting": "dim, highlighting the anger on Shekhawat's face",
+          "Shot_Tone": "tense",
+          "Set_Details": "Water dripping from Sanju’s face, intensifying the scene.",
+          "Dialog": [],
+          "focus_character_images": [],
+          "location_reference": null
+        },
+        {
+          "Shot_ID": "SC2_SH4",
+          "Description": "Medium shot of Sanju wiping his face, looking up defiantly at Inspector Shekhawat.",
+          "Focus_Characters": [
+            "char_01"
+          ],
+          "Camera": "medium shot",
+          "Emotion": "defiant",
+          "Narration": "In this moment, Sanju reveals his determination to hold back the truth.",
+          "Background_SFX": [
+            "clock ticking"
+          ],
+          "Lighting": "dim, shadowy figures creating a sense of isolation",
+          "Shot_Tone": "tense",
+          "Set_Details": "The table remains cluttered with papers and evidence.",
+          "Dialog": [],
+          "focus_character_images": [],
+          "location_reference": null
+        },
+        {
+          "Shot_ID": "SC2_SH5",
+          "Description": "Flashback sequence: A grainy close-up of Sanju and Raghu laughing, emphasizing their friendship.",
+          "Focus_Characters": [
+            "char_01"
+          ],
+          "Camera": "close-up",
+          "Emotion": "nostalgic",
+          "Narration": "Ek baar ki baat hai, Sanju aur Raghu ka gehra dosti.",
+          "Background_SFX": [
+            "laughter",
+            "soft music"
+          ],
+          "Lighting": "bright and warm, contrasting the interrogation room's dimness",
+          "Shot_Tone": "nostalgic",
+          "Set_Details": "A park setting, with laughter and friendship evident.",
+          "Dialog": [],
+          "focus_character_images": [],
+          "location_reference": null
+        },
+        {
+          "Shot_ID": "SC2_SH6",
+          "Description": "Quick cut back to Sanju's cold demeanor as he shakes his head, denying involvement.",
+          "Focus_Characters": [
+            "char_01"
+          ],
+          "Camera": "close-up",
+          "Emotion": "guilt and denial",
+          "Narration": "Sanju finds it hard to confront the demons of his past.",
+          "Background_SFX": [
+            "clock ticking",
+            "tense music building"
+          ],
+          "Lighting": "dim, heavy shadows now accentuating his stress",
+          "Shot_Tone": "tense",
+          "Set_Details": "The interrogation table still remains cluttered with evidence.",
+          "Dialog": [
+            {
+              "char_01": "Main akele nahi tha, inspector."
+            }
+          ],
+          "focus_character_images": [],
+          "location_reference": null
+        }
+      ]
+    },
+    {
+      "scene_info": {
+        "Scene_ID": "SC_03",
+        "Title": "Football Flashback",
+        "Location": "EXT. FOOTBALL GROUND - DAY",
+        "Narration": true,
+        "Scene_Tone": "nostalgic",
+        "Set_Info": {
+          "environment": "A bustling football ground filled with cheering crowds and colorful banners",
+          "time": "Day",
+          "lighting": "bright",
+          "background_sfx": [
+            "crowd cheering",
+            "whistle blows"
+          ]
+        },
+        "Scene_Characters": [
+          {
+            "character_id": "char_01",
+            "character_name": "",
+            "emotion": "joyful",
+            "outfit": "sports attire",
+            "scene_description": "Sanju is energetic and lively, celebrating with teammates after scoring a goal."
+          },
+          {
+            "character_id": "char_02",
+            "character_name": "",
+            "emotion": "proud",
+            "outfit": "sports attire",
+            "scene_description": "Raghu is enthusiastic as he plays, showing a strong bond with Sanju during the match."
+          }
+        ],
+        "Plot": {
+          "summary": "The scene captures a pivotal moment in Sanju and Raghu's friendship during a crucial football match. As tension builds on the field, Sanju scores the winning goal, showcasing their teamwork. The jubilant atmosphere shifts as women approach Sanju, leaving Raghu feeling sidelined, hinting at growing differences between them.",
+          "theme": "friendship and rivalry"
+        },
+        "Given_Script": "Football match chal raha hai - banners lage hua hai MBA vs BBA - hum Sanju aur Raghu ko introduce karte hai jo ek team se khel rahe hai - its a tie breaker and game extra time mein ja juka hai."
+      },
+      "shots": [
+        {
+          "Shot_ID": "SC3_SH1",
+          "Description": "Wide shot of the bustling football ground with banners for MBA vs BBA, showcasing the energetic crowd.",
+          "Focus_Characters": [],
+          "Camera": "wide_shot",
+          "Emotion": "none",
+          "Narration": "Football match chal raha hai - banners lage hua hai MBA vs BBA.",
+          "Background_SFX": [
+            "crowd cheering",
+            "whistle blows"
+          ],
+          "Lighting": "bright daylight",
+          "Shot_Tone": "nostalgic",
+          "Set_Details": "Crowd cheering, colorful banners, football field in mid-action.",
+          "Dialog": [],
+          "focus_character_images": [],
+          "location_reference": null
+        },
+        {
+          "Shot_ID": "SC3_SH2",
+          "Description": "Close-up on Sanju as he dribbles the ball, determination on his face, showcasing his skill.",
+          "Focus_Characters": [
+            "char_01"
+          ],
+          "Camera": "close-up",
+          "Emotion": "joyful",
+          "Narration": "",
+          "Background_SFX": [
+            "crowd cheering"
+          ],
+          "Lighting": "bright daylight with slight lens flare",
+          "Shot_Tone": "exciting",
+          "Set_Details": "Grass of the field glistening, focus on footwork.",
+          "Dialog": [],
+          "focus_character_images": [],
+          "location_reference": null
+        },
+        {
+          "Shot_ID": "SC3_SH3",
+          "Description": "Mid shot of Raghu watching Sanju, pride swelling in his chest as he sees his friend in action.",
+          "Focus_Characters": [
+            "char_02"
+          ],
+          "Camera": "mid_shot",
+          "Emotion": "proud",
+          "Narration": "",
+          "Background_SFX": [
+            "distant cheering"
+          ],
+          "Lighting": "bright daylight",
+          "Shot_Tone": "uplifting",
+          "Set_Details": "Raghu in the background, players running, the field lit up.",
+          "Dialog": [],
+          "focus_character_images": [],
+          "location_reference": null
+        },
+        {
+          "Shot_ID": "SC3_SH4",
+          "Description": "Dynamic shot of Sanju scoring the winning goal, the ball hitting the net with excitement.",
+          "Focus_Characters": [
+            "char_01"
+          ],
+          "Camera": "tracking_shot",
+          "Emotion": "joyful",
+          "Narration": "",
+          "Background_SFX": [
+            "crowd erupts in cheers",
+            "whistle blows"
+          ],
+          "Lighting": "bright daylight",
+          "Shot_Tone": "ecstatic",
+          "Set_Details": "Goalpost shaking, players running towards Sanju, crowd jumping.",
+          "Dialog": [],
+          "focus_character_images": [],
+          "location_reference": null
+        },
+        {
+          "Shot_ID": "SC3_SH5",
+          "Description": "Close-up on Raghu’s face as he watches Sanju being celebrated, a slight frown hinting at his mixed feelings.",
+          "Focus_Characters": [
+            "char_02"
+          ],
+          "Camera": "close-up",
+          "Emotion": "conflicted",
+          "Narration": "",
+          "Background_SFX": [
+            "crowd cheering fades into background noise"
+          ],
+          "Lighting": "bright daylight with shadows on Raghu's face",
+          "Shot_Tone": "bittersweet",
+          "Set_Details": "Raghu standing amidst celebrating teammates, glancing sideways.",
+          "Dialog": [],
+          "focus_character_images": [],
+          "location_reference": null
+        },
+        {
+          "Shot_ID": "SC3_SH6",
+          "Description": "Wide shot of women approaching Sanju after the goal, leaving Raghu slightly isolated in the background.",
+          "Focus_Characters": [
+            "char_01",
+            "char_02"
+          ],
+          "Camera": "wide_shot",
+          "Emotion": "nostalgic",
+          "Narration": "",
+          "Background_SFX": [
+            "crowd cheering",
+            "laughter"
+          ],
+          "Lighting": "bright daylight",
+          "Shot_Tone": "reflective",
+          "Set_Details": "Sanju surrounded by women, Raghu at the edge of the frame looking on.",
+          "Dialog": [],
+          "focus_character_images": [],
+          "location_reference": null
+        }
+      ]
+    },
+    {
+      "scene_info": {
+        "Scene_ID": "SC_04",
+        "Title": "Final Confrontation",
+        "Location": "INT. INTERROGATION ROOM - NIGHT",
+        "Narration": true,
+        "Scene_Tone": "dramatic",
+        "Set_Info": {
+          "environment": "The same dimly lit interrogation room",
+          "time": "Night",
+          "lighting": "dim",
+          "background_sfx": [
+            "intense music",
+            "heavy breathing"
+          ]
+        },
+        "Scene_Characters": [
+          {
+            "character_id": "char_01",
+            "character_name": "",
+            "emotion": "frustrated",
+            "outfit": "casual clothes",
+            "scene_description": "Sanju responds coldly to Shekhawat, revealing the complex emotions behind his actions."
+          },
+          {
+            "character_id": "char_02",
+            "character_name": "",
+            "emotion": "confrontational",
+            "outfit": "police uniform",
+            "scene_description": "Inspector Shekhawat pushes Sanju for answers, insisting on the betrayal of his friend."
+          }
+        ],
+        "Plot": {
+          "summary": "In a tense confrontation, Inspector Shekhawat pressures Sanju about his role in Raghu's death. Sanju maintains his innocence concerning Raghu's demise, stating that while he fired the gun, he did not intend to kill his friend. The scene ends on a cliffhanger, emphasizing the heavy emotional burden of guilt and betrayal.",
+          "theme": "guilt and innocence"
+        },
+        "Given_Script": "Shekhawat - Waah, Do dost jo ek doosre ke liye jaan de sakte the! Phir ussi dost ki jaan kyun le li tune? Sanju (coldly) - Maine goli zaroor chalai thi lekin Raghu ko maine nahi mara!! Freeze."
+      },
+      "shots": [
+        {
+          "Shot_ID": "SC4_SH1",
+          "Description": "Wide shot of the interrogation room showcasing Inspector Shekhawat leaning forward, intensely gazing at Sanju who sits across the table with a steely expression.",
+          "Focus_Characters": [
+            "Inspector Shekhawat",
+            "Sanju"
+          ],
+          "Camera": "wide_angle",
+          "Emotion": "tense",
+          "Narration": "",
+          "Background_SFX": [
+            "intense music",
+            "heavy breathing"
+          ],
+          "Lighting": "dim light with a single overhead bulb casting shadows",
+          "Shot_Tone": "dramatic",
+          "Set_Details": "Table with a single bulb overhead, tape recorder on the table, dimly lit walls",
+          "Dialog": [],
+          "focus_character_images": [],
+          "location_reference": null
+        },
+        {
+          "Shot_ID": "SC4_SH2",
+          "Description": "Close-up on Inspector Shekhawat as he leans forward, his expression confrontational, voice rising with emotion.",
+          "Focus_Characters": [
+            "Inspector Shekhawat"
+          ],
+          "Camera": "close-up",
+          "Emotion": "frustration",
+          "Narration": "",
+          "Background_SFX": [
+            "intense music",
+            "heavy breathing"
+          ],
+          "Lighting": "focused lighting on Shekhawat's face, shadows framing his features",
+          "Shot_Tone": "dramatic",
+          "Set_Details": "Detective's badge glinting under the light, frustration evident on his face",
+          "Dialog": [
+            {
+              "Inspector Shekhawat": "Waah, Do dost jo ek doosre ke liye jaan de sakte the! Phir ussi dost ki jaan kyun le li tune?"
+            }
+          ],
+          "focus_character_images": [],
+          "location_reference": null
+        },
+        {
+          "Shot_ID": "SC4_SH3",
+          "Description": "Medium shot of Sanju, looking cold and defiant, his hands clenched on the table.",
+          "Focus_Characters": [
+            "Sanju"
+          ],
+          "Camera": "mid_shot",
+          "Emotion": "defiance",
+          "Narration": "",
+          "Background_SFX": [
+            "intense music",
+            "heavy breathing"
+          ],
+          "Lighting": "dim light accentuating Sanju's tense posture",
+          "Shot_Tone": "dramatic",
+          "Set_Details": "Hands tightly gripping the edge of the table, a water cup nearby suggesting long hours of interrogation",
+          "Dialog": [
+            {
+              "Sanju": "Maine goli zaroor chalai thi lekin Raghu ko maine nahi mara!!"
+            }
+          ],
+          "focus_character_images": [],
+          "location_reference": null
+        },
+        {
+          "Shot_ID": "SC4_SH4",
+          "Description": "Close-up of Sanju’s face, capturing the struggle between guilt and defiance, his eyes blinking rapidly.",
+          "Focus_Characters": [
+            "Sanju"
+          ],
+          "Camera": "close-up",
+          "Emotion": "guilt",
+          "Narration": "",
+          "Background_SFX": [
+            "intense music",
+            "heavy breathing"
+          ],
+          "Lighting": "soft light catching sweat on his forehead, creating a sheen",
+          "Shot_Tone": "dramatic",
+          "Set_Details": "Eyes darting, reflecting inner turmoil; the atmosphere laden with tension",
+          "Dialog": [],
+          "focus_character_images": [],
+          "location_reference": null
+        },
+        {
+          "Shot_ID": "SC4_SH5",
+          "Description": "Over-the-shoulder shot from behind Shekhawat, focusing on Sanju, highlighting the intense situation.",
+          "Focus_Characters": [
+            "Sanju"
+          ],
+          "Camera": "over_the_shoulder",
+          "Emotion": "tension",
+          "Narration": "",
+          "Background_SFX": [
+            "intense music",
+            "heavy breathing"
+          ],
+          "Lighting": "dim room with a spotlight on Sanju",
+          "Shot_Tone": "dramatic",
+          "Set_Details": "Shekhawat's blurred silhouette foreground, Sanju clearly framed inside the dim light",
+          "Dialog": [],
+          "focus_character_images": [],
+          "location_reference": null
+        },
+        {
+          "Shot_ID": "SC4_SH6",
+          "Description": "Medium shot as Sanju leans back, arms crossed, conveying resignation and the weight of the moment.",
+          "Focus_Characters": [
+            "Sanju"
+          ],
+          "Camera": "mid_shot",
+          "Emotion": "resignation",
+          "Narration": "",
+          "Background_SFX": [
+            "intense music",
+            "heavy breathing"
+          ],
+          "Lighting": "dim lighting with shadows creating a somber mood",
+          "Shot_Tone": "dramatic",
+          "Set_Details": "Crossed arms tight around him, signifying both defensiveness and surrender",
+          "Dialog": [],
+          "focus_character_images": [],
+          "location_reference": null
+        }
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "name": "Sanju Wadhwa",
+      "id": "char_01",
+      "age": 24,
+      "role": "main",
+      "voice_information": "soft-spoken yet firm",
+      "gender": "male",
+      "overall_description": "A complex character plagued by guilt and conflicting emotions, Sanju is depicted as a jovial friend whose life takes a dark turn. He is fiercely loyal but struggles with the repercussions of his actions, revealing vulnerability beneath his bravado. His background includes a passion for football and a close-knit friendship with Raghu that ultimately leads to tragedy. He is portrayed as having a mix of charisma and hidden turmoil. Sanju is centered around themes of loyalty and betrayal."
+    },
+    {
+      "name": "Raghu Sharma",
+      "id": "char_02",
+      "age": 24,
+      "role": "supporting",
+      "voice_information": "confident and enthusiastic",
+      "gender": "male",
+      "overall_description": "Raghu is a spirited and ambitious youth, known for his competitiveness on the football field. He represents the ideal friend, embodying loyalty and camaraderie, but his life takes a drastic turn due to the fatal incident. Raghu's character is relatable as he navigates friendship, love, and rivalry, making his demise a significant emotional anchor in the story. His underlying strength is showcased through his interactions with Sanju, ultimately underscoring themes of sacrifice and friendship."
+    },
+    {
+      "name": "Inspector Shekhawat",
+      "id": "char_02",
+      "age": 40,
+      "role": "supporting",
+      "voice_information": "gravelly and authoritative",
+      "gender": "male",
+      "overall_description": "A seasoned police officer, Shekhawat is determined to unravel the truth behind Raghu's death. He represents authority and the quest for justice, often using coercive tactics to extract confessions. His character is driven by a desire to serve justice and resolve crimes, making him a pivotal figure in confronting Sanju's actions. His professional demeanor hides a more compassionate side, as he understands the complexities of crime and friendship."
+    }
+  ]
+}

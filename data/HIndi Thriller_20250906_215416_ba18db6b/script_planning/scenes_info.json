@@ -1,0 +1,174 @@
+{
+  "scenes": [
+    {
+      "Scene_ID": "SC_01",
+      "Title": "Crime Scene Discovery",
+      "Location": "EXT. CRIME SCENE - DAY",
+      "Narration": true,
+      "Scene_Tone": "tense",
+      "Set_Info": {
+        "environment": "a disturbing and chaotic crime scene with police activity",
+        "time": "Day",
+        "lighting": "natural light",
+        "background_sfx": [
+          "police sirens",
+          "murmurs of a crowd"
+        ]
+      },
+      "Scene_Characters": [
+        {
+          "character_id": "char_01",
+          "character_name": "",
+          "emotion": "fearful",
+          "outfit": "handcuffs, casual clothes",
+          "scene_description": "Sanju sits quietly, observing the body covered with a white sheet, visibly shaken."
+        }
+      ],
+      "Plot": {
+        "summary": "The scene opens at a crime scene where a disfigured body is being inspected. Sanju, a 24-year-old man, is sitting handcuffed, quietly watching the processing of the evidence. His emotions reflect fear and confusion, as he is still in shock from the events that have unfolded.",
+        "theme": "the consequences of violence"
+      },
+      "Given_Script": "Hum dekhte hain ek crime scene. Ek aadmi ki disfigured laash safed kapde se dhaki jaa rahi hai - crime scene ka inspection chal raha hai - ek gun evidence bag mein seal kar rahe hain. Ek 24 saal ka ladka, Sanju, haath mein hathkadi pehen kar baitha hai. Ekdum chupchap dekh raha hai uss body ko."
+    },
+    {
+      "Scene_ID": "SC_02",
+      "Title": "Interrogation Begins",
+      "Location": "INT. INTERROGATION ROOM - NIGHT",
+      "Narration": true,
+      "Scene_Tone": "intriguing",
+      "Set_Info": {
+        "environment": "a dimly lit interrogation room with a table and two chairs",
+        "time": "Night",
+        "lighting": "artificial light",
+        "background_sfx": [
+          "clock ticking",
+          "distant police interactions"
+        ]
+      },
+      "Scene_Characters": [
+        {
+          "character_id": "char_01",
+          "character_name": "",
+          "emotion": "nervous",
+          "outfit": "the same casual clothes as before",
+          "scene_description": "Sanju sits tense in the interrogation room, flinching as Inspector Shekhawat throws water at him, demanding answers."
+        },
+        {
+          "character_id": "char_02",
+          "character_name": "",
+          "emotion": "aggressive",
+          "outfit": "police uniform",
+          "scene_description": "Inspector Shekhawat enters with an authoritative presence, sharply questioning Sanju about Raghu."
+        }
+      ],
+      "Plot": {
+        "summary": "In the interrogation room, Sanju's nerve seems to crack under the pressure as Inspector Shekhawat confronts him about his friend Raghu. The scene portrays a tense back-and-forth, highlighting Sanju’s fear as a flashback reveals his violent actions. The interrogation intensifies as Shekhawat pushes for the truth.",
+        "theme": "friendship versus betrayal"
+      },
+      "Given_Script": "Wo ladka Sanju interrogation room mein baitha hua hai. Inspector Shekhawat andar aata hai. Wo Sanju ke muh pe pani phekta hai aur poochta hai… Shekhawat - Bata Sanju, Kya kiya tha tune Raghu ke saath?"
+    },
+    {
+      "Scene_ID": "SC_03",
+      "Title": "Friendship on the Field",
+      "Location": "EXT. FOOTBALL GROUND - DAY",
+      "Narration": true,
+      "Scene_Tone": "nostalgic",
+      "Set_Info": {
+        "environment": "a lively football ground filled with banners and cheering crowds",
+        "time": "Day",
+        "lighting": "bright sunlight",
+        "background_sfx": [
+          "cheering crowd",
+          "whistle blowing"
+        ]
+      },
+      "Scene_Characters": [
+        {
+          "character_id": "char_01",
+          "character_name": "",
+          "emotion": "joyful",
+          "outfit": "sportswear, football kit",
+          "scene_description": "Sanju celebrates a goal with excitement, reveling in the moment with his teammates and admiring fans."
+        },
+        {
+          "character_id": "char_02",
+          "character_name": "",
+          "emotion": "supportive",
+          "outfit": "sportswear, football kit",
+          "scene_description": "Raghu plays with determination, showcasing his skills on the field and sharing camaraderie with Sanju."
+        }
+      ],
+      "Plot": {
+        "summary": "The flashback to a football match reveals the strong bond between Sanju and Raghu, who are playing for their team. In a moment of teamwork, Sanju scores a goal, and their friendship is showcased as they celebrate together. The excitement is palpable, contrasting starkly with the tense present.",
+        "theme": "the innocence of youth and friendship"
+      },
+      "Given_Script": "Football match chal raha hai - banners lage hua hai MBA vs BBA - hum Sanju aur Raghu ko introduce karte hai jo ek team se khel rahe hai - its a tie breaker and game extra time mein ja juka hai."
+    },
+    {
+      "Scene_ID": "SC_04",
+      "Title": "The Revelation of Betrayal",
+      "Location": "INT. INTERROGATION ROOM - NIGHT",
+      "Narration": true,
+      "Scene_Tone": "dramatic",
+      "Set_Info": {
+        "environment": "the same dimly lit interrogation room",
+        "time": "Night",
+        "lighting": "dim",
+        "background_sfx": [
+          "heavy breathing",
+          "ambient tension"
+        ]
+      },
+      "Scene_Characters": [
+        {
+          "character_id": "char_01",
+          "character_name": "",
+          "emotion": "defensive",
+          "outfit": "the same as previous scenes",
+          "scene_description": "Sanju asserts his innocence coldly while under intense scrutiny, revealing his emotional struggle."
+        },
+        {
+          "character_id": "char_02",
+          "character_name": "",
+          "emotion": "challenging",
+          "outfit": "police uniform",
+          "scene_description": "Inspector Shekhawat presses Sanju with relentless questions about Raghu, pushing for a confession."
+        }
+      ],
+      "Plot": {
+        "summary": "In a gripping confrontation in the interrogation room, Shekhawat questions Sanju about his loyalty to Raghu, emphasizing the tragedy of betrayal. Sanju defends himself, stating he shot but did not kill Raghu, underscoring the conflict between friendship and guilt. The tension in the room escalates to a freeze-frame moment.",
+        "theme": "the burden of guilt and the pain of loss"
+      },
+      "Given_Script": "Shekhawat - Waah, Do dost jo ek doosre ke liye jaan de sakte the! Phir ussi dost ki jaan kyun le li tune? Sanju (coldly) - Maine goli zaroor chalai thi lekin Raghu ko maine nahi mara!!"
+    }
+  ],
+  "characters": [
+    {
+      "name": "Sanju Wadhwa",
+      "id": "char_01",
+      "age": 24,
+      "role": "main",
+      "voice_information": "soft-spoken, anxious tone",
+      "gender": "male",
+      "overall_description": "Sanju is a young man filled with potential but overshadowed by his reckless actions. He is playful and full of life, especially on the football field where he showcases his talents. However, beneath this lively exterior lies a deep-seated fear and guilt regarding his recent actions that have led him to a crime scene and into an interrogation room. His friendship with Raghu is central to his emotional journey, marked by loyalty and regret, as he grapples with the aftermath of betrayal. His journey reflects the struggles of young adulthood faced with dire consequences of decisions made in moments of impulse and passion."
+    },
+    {
+      "name": "Raghu Sharma",
+      "id": "char_02",
+      "age": 24,
+      "role": "main",
+      "voice_information": "assertive, encouraging voice",
+      "gender": "male",
+      "overall_description": "Raghu is a passionate and talented football player, known for his determination and strong leadership on the field. He has a deep sense of loyalty towards his friends, particularly Sanju. Their friendship is a cornerstone of his identity, as he balances his ambitions with the complexities that arise from their relationship. Raghu's love for the game is evident, often overshadowed by the friendship and rivalry he shares with Sanju. However, the burgeoning tension between them in light of recent events hints at a darker side – the struggle of maintaining bonds when faced with betrayal and loss."
+    },
+    {
+      "name": "Inspector Shekhawat",
+      "id": "char_02",
+      "age": 40,
+      "role": "supporting",
+      "voice_information": "authoritative, commanding voice",
+      "gender": "male",
+      "overall_description": "Inspector Shekhawat is a seasoned officer dedicated to uncovering the truth behind crimes. His tough exterior and aggressive interrogation tactics demonstrate his determination to solve cases, often leading him to confront suspects with an unwavering moral compass. Shekhawat believes in justice, and to him, the end justifies the means, which sometimes puts him at odds with the emotions of those he interrogates. He plays a crucial role in unraveling the plot, showcasing the heavier themes of justice, betrayal, and the complexity of human emotions in the face of crime."
+    }
+  ]
+}
