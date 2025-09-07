@@ -48,12 +48,12 @@ flowchart TD
     G --> H[🎬 Video Assembly Manager]
     H --> I[🎉 Final Video Output]
     
-    B -.-> J[GPT-4]
-    C -.-> K[FAL + GPT-4]
-    D -.-> L[FAL + Gemini]
+    B -.-> J[LLM]
+    C -.-> K[Nano Banana]
+    D -.-> L[Nano Banana]
     E -.-> M[Gemini]
-    F -.-> N[Veo3]
-    G -.-> O[ElevenLabs]
+    F -.-> N[FAL(Veo3) ]
+    G -.-> O[ElevenLabs Voice design+TTS]
     H -.-> P[FFmpeg + Custom Logic - PENDING]
     
     style A fill:#e1f5fe
