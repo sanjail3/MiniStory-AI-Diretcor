@@ -52,7 +52,7 @@ flowchart TD
     C -.-> K[Nano Banana]
     D -.-> L[Nano Banana]
     E -.-> M[Gemini]
-    F -.-> N[FAL(Veo3) ]
+    F -.-> N[FAL +Veo3 ]
     G -.-> O[ElevenLabs Voice design+TTS]
     H -.-> P[FFmpeg + Custom Logic - PENDING]
     
