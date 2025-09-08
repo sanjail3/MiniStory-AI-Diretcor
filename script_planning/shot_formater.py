@@ -10,7 +10,7 @@ from outfit_consistency.outfit_tracker import OutfitConsistencyTracker
 
 load_dotenv()
 
-llm_client = get_llm_model("gpt-4o-mini",api_key=os.getenv("OPENAI_API_KEY"))
+llm_client = get_llm_model("gemini-2.0-flash",api_key=os.getenv("GEMINI_API_KEY"))
 
 
 class ShotFormatter:

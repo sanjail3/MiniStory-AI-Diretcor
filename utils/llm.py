@@ -7,7 +7,7 @@ from langchain_community.llms.replicate import Replicate
 llm_providers = {
     "gpt": "openai",
     "claude": "anthropic",
-    "gemini": "google-genai",
+    "gemini": "google_genai",
 }
 
 
